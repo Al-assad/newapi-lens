@@ -1,0 +1,45 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="128" x2="864" y2="896" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2330"/>
+      <stop offset="1" stop-color="#0D1118"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 460) rotate(90) scale(360)">
+      <stop stop-color="#2B3950" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#2B3950" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="symbol" x1="362" y1="378" x2="682" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F7FF"/>
+      <stop offset="1" stop-color="#AFC1DB"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="256" y1="172" x2="768" y2="852" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="softShadow" x="173" y="173" width="678" height="678" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="20"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0196078 0 0 0 0 0.0313725 0 0 0 0 0.0509804 0 0 0 0.34 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect x="32" y="32" width="960" height="960" rx="192" stroke="url(#stroke)" stroke-width="2"/>
+  <circle cx="512" cy="512" r="332" fill="url(#glow)"/>
+
+  <g filter="url(#softShadow)">
+    <circle cx="512" cy="512" r="288" fill="#111722"/>
+    <circle cx="512" cy="512" r="287" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+    <circle cx="512" cy="512" r="236" stroke="white" stroke-opacity="0.05" stroke-width="1.5"/>
+    <path d="M385 580L468 470L534 550L635 416" stroke="url(#symbol)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="385" cy="580" r="18" fill="#F2F7FF" fill-opacity="0.92"/>
+    <circle cx="468" cy="470" r="18" fill="#F2F7FF" fill-opacity="0.92"/>
+    <circle cx="534" cy="550" r="18" fill="#F2F7FF" fill-opacity="0.92"/>
+    <circle cx="635" cy="416" r="18" fill="#F2F7FF" fill-opacity="0.92"/>
+  </g>
+</svg>
