@@ -1,38 +1,40 @@
 # NewAPI Lens
 
-`NewAPI Lens` 是一个面向 macOS 的 `new-api` 账户统计面板，用来集中查看余额、消费、模型分布和阶段趋势。
+[中文说明](README.zh-CN.md)
 
-## 功能
+`NewAPI Lens` is a macOS desktop dashboard for `new-api` accounts. It helps you track balance, usage, model distribution, and spending trends in one place.
 
-- 多账户管理：支持添加、编辑、删除多个 `new-api` 账户
-- 总览看板：查看当前余额、今日/本周/本月消耗
-- 趋势分析：按天、周、月查看金额或 Token 变化
-- 周期报表：汇总周期消费和模型分布
-- 菜单栏入口：可从菜单栏快速查看核心数据
-- 自动刷新：按设定间隔自动同步账户数据
+## Features
 
-## 运行环境
+- Multi-account management for multiple `new-api` instances
+- Overview dashboard for balance and daily, weekly, monthly usage
+- Trend analysis by day, week, and month
+- Period reports for usage and model distribution
+- Menu bar entry for quick status access
+- Auto refresh with configurable sync interval
+
+## Platform
 
 - macOS
-- Xcode 16 或更新版本
+- Xcode 16 or later
 
-## 使用方式
+## Getting Started
 
-1. 用 Xcode 打开 `newapi-lens.xcodeproj`
-2. 运行应用
-3. 在“账户”页添加你的 `new-api` 服务地址、用户 ID 和访问令牌
-4. 回到总览、趋势、数据页查看统计结果
+1. Open `newapi-lens.xcodeproj` in Xcode
+2. Run the app
+3. Add your `new-api` host, user ID, and access token in the Accounts page
+4. View statistics in Overview, Trends, and Data
 
-## 当前版本
+## Version
 
 - `v0.6`
 
-## 技术栈
+## Tech Stack
 
 - SwiftUI
-- 本地持久化
+- Local persistence
 - `new-api` HTTP API
 
-## 许可证
+## License
 
-本项目使用 `GNU Affero General Public License v3.0`，见 `LICENSE`。
+Licensed under the `GNU Affero General Public License v3.0`. See `LICENSE`.
