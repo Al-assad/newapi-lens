@@ -13,27 +13,17 @@
 - Menu bar entry for quick status access
 - Auto refresh with configurable sync interval
 
-## Platform
+## Install
 
-- macOS
-- Xcode 16 or later
+After downloading the app, move it to `Applications` and launch it.
 
-## Getting Started
+If macOS blocks the app because it is from an unidentified developer, run:
 
-1. Open `newapi-lens.xcodeproj` in Xcode
-2. Run the app
-3. Add your `new-api` host, user ID, and access token in the Accounts page
-4. View statistics in Overview, Trends, and Data
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/newapi-lens.app
+```
 
-## Version
-
-- `v0.6`
-
-## Tech Stack
-
-- SwiftUI
-- Local persistence
-- `new-api` HTTP API
+If you placed the app somewhere else, replace the path with the actual `.app` location.
 
 ## License
 

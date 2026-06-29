@@ -13,27 +13,17 @@
 - 菜单栏入口：可快速查看核心状态
 - 自动刷新：按设定间隔自动同步账户数据
 
-## 运行环境
+## 安装
 
-- macOS
-- Xcode 16 或更新版本
+下载后将应用拖到 `Applications` 目录，再启动即可。
 
-## 使用方式
+如果 macOS 因“未识别开发者”拦截启动，可执行：
 
-1. 用 Xcode 打开 `newapi-lens.xcodeproj`
-2. 运行应用
-3. 在“账户”页添加 `new-api` 服务地址、用户 ID 和访问令牌
-4. 在总览、趋势、数据页查看统计结果
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/newapi-lens.app
+```
 
-## 当前版本
-
-- `v0.6`
-
-## 技术栈
-
-- SwiftUI
-- 本地持久化
-- `new-api` HTTP API
+如果应用不在 `Applications`，把命令里的路径替换成实际 `.app` 路径即可。
 
 ## 许可证
 

@@ -1,5 +1,7 @@
 .DS_Store
 .tmp_icon/
+.build/
 build/
 DerivedData/
+dist/
 *.xcuserstate
