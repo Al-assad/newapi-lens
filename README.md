@@ -4,6 +4,8 @@
 
 `NewAPI Lens` is a macOS desktop dashboard for `new-api` accounts. It helps you track balance, usage, model distribution, and spending trends in one place.
 
+![NewAPI Lens Screenshot](docs/images/screenshot.png)
+
 ## Features
 
 - Multi-account management for multiple `new-api` instances

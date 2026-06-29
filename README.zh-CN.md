@@ -4,6 +4,8 @@
 
 `NewAPI Lens` 是一个面向 macOS 的 `new-api` 账户统计面板，用来集中查看余额、消费、模型分布和阶段趋势。
 
+![NewAPI Lens 截图](docs/images/screenshot.png)
+
 ## 功能
 
 - 多账户管理：支持添加、编辑、删除多个 `new-api` 账户
